@@ -1,0 +1,9 @@
+@echo presiona la tecla enter 
+PAUSE
+C:
+cd Program Files (x86)\Nox\bin
+nox_adb.exe connect 127.0.0.1:62001
+nox_adb.exe connect 32013219be57254a 
+@echo Felicidades ya esta utilizando el emu
+PAUSE 
+exit
